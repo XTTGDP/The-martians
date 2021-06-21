@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 通栏部分 */
+header a{
+    color: #428bca;
+}
+header a:hover{
+    text-decoration: none;
+}
+
+/* 导航栏 */
+nav img{
+    height: 30px;
+}
+
+/* 轮播图 */
+.carousel .carousel-inner>.item>img {
+    width: 100%;
+}
+
+.carousel .carousel-inner>.item>.img-pc {
+    width: 100%;
+    height: 410px;
+    display: block;
+    /* 让图片居中 */
+    background-position: center;
+}
+
+/* 图片 */
+.container{
+    margin: 0 auto;
+    text-align: center;
+}
+/*学习路径*/
+.courses{
+	width: 100%;
+	height:450px;
+}
+.bt h2{
+	text-align: center;
+	font-size: 20px;
+}
+/*一个图片详情的盒子*/
+.courses .xk{
+	font-size: 13px;
+	float: left;
+	text-align: center;
+}
+.courses .xk div{
+	text-align: center;
+	float: left;
+}
+.courses .xk .img{
+	width: 40%;
+	height: 100px;
+}
+.courses .xk .wz{
+	width: 60%;
+	height: 70px;
+	padding-top: 30px;
+}
+.courses .xk label{
+	display: block;
+}
+/*就业热门*/
+.jobs  .jobs-xk{
+	font-size: 13px;
+	float: left;
+}
+.jobs  .jobs-xk .a{
+	width: 232px;
+	margin: auto;
+}
+.jobs .jobs-xk img{
+	width: 230px;
+	border: solid 1px darkgrey;
+}
+.jobs  .jobs-xk p{
+	width: 230px;
+}
+.jobs .jobs-xk p:nth-child(1){
+	font-size: 15px;
+}
+/*展示标签*/
+.tabs{
+	height: 100%;
+	width: 100%;
+	background-color:lightgrey;
+}
+
+.tabs .wz1 div:nth-child(1){
+	font-size: 18px;
+	padding: 20px 0 10px;
+}
+.tabs .wz1 div:nth-child(2){
+	font-size: 13px;	
+}
+.tabs .tupian{
+	margin-top: 30px;
+	float: left;
+	text-align: center;
+}
+.tabs .wz1{
+	height: 100%;
+	margin-top: 30px;
+	float: left;
+	text-align: center;
+}
+.tabs .tupian img{
+	height: 100%;
+	width: 200px;
+}
+/*页尾*/
+.footer {
+	width: 100%;
+	height: 100%;
+}
+.footer .tupian img{
+	height: 100%;
+	width: 300px;
+}
+.footer .tupian{
+	margin-top: 30px;
+	float: left;
+	text-align: center;
+}
+.footer .wz2{
+	height: 100%;
+	margin-top: 30px;
+	float: left;
+	text-align: center;
+}
+.footer .wz2 div:nth-child(1){
+	font-size: 18px;
+	padding: 20px 0 10px;
+}
+.footer .wz2 div:nth-child(2){
+	font-size: 13px;	
+}
+
+/*底部*/
+.bottom{
+	width: 100%;
+	height: 80px;
+	background:#333333;
+	font-size: 13px;
+	text-align: center;
+}
+.bottom div{
+	color:#FFFFFF;
+	padding-top:15px;
+}
+.bottom span{
+	color:#FFFFFF;
+	padding: 0 4px;
+}
